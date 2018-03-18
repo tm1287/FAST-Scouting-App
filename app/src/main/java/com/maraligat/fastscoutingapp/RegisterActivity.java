@@ -1,5 +1,6 @@
 package com.maraligat.fastscoutingapp;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText r_UsernameEt;
     private EditText r_PasswordEt;
     private TextView r_SubmitTv;
-    private TextView r_RegisterTv;
+    private TextView r_LoginTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,7 @@ public class RegisterActivity extends AppCompatActivity {
         r_UsernameEt = findViewById(R.id.r_UsernameEt);
         r_PasswordEt = findViewById(R.id.r_PasswordEt);
         r_SubmitTv = findViewById(R.id.r_SubmitTv);
-        r_RegisterTv = findViewById(R.id.r_RegisterTv);
+        r_LoginTv = findViewById(R.id.r_LoginTv);
 
 
 
@@ -37,10 +38,11 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        r_RegisterTv.setOnClickListener(new View.OnClickListener() {
+        r_LoginTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(i);
             }
         });
 

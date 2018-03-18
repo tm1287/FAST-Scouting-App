@@ -1,5 +1,6 @@
 package com.maraligat.fastscoutingapp;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,7 +40,8 @@ public class LoginActivity extends AppCompatActivity {
         Register_tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getApplicationContext(),RegisterActivity.class);
+                startActivity(i);
             }
         });
 
