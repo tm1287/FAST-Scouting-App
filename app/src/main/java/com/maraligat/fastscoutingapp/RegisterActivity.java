@@ -7,36 +7,37 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
-    private EditText Username_et;
-    private EditText Password_et;
-    private TextView Submit_tv;
-    private TextView Register_tv;
+public class RegisterActivity extends AppCompatActivity {
+    private EditText r_UsernameEt;
+    private EditText r_PasswordEt;
+    private TextView r_SubmitTv;
+    private TextView r_RegisterTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         init();
     }
 
 
     private void init(){
-        Username_et = findViewById(R.id.r_UsernameEt);
-        Password_et = findViewById(R.id.r_PasswordEt);
-        Submit_tv = findViewById(R.id.Submit_tv);
-        Register_tv = findViewById(R.id.Register_tv);
+        r_UsernameEt = findViewById(R.id.r_UsernameEt);
+        r_PasswordEt = findViewById(R.id.r_PasswordEt);
+        r_SubmitTv = findViewById(R.id.r_SubmitTv);
+        r_RegisterTv = findViewById(R.id.r_RegisterTv);
 
 
-        Submit_tv.setOnClickListener(new View.OnClickListener() {
+
+        r_SubmitTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
 
-        Register_tv.setOnClickListener(new View.OnClickListener() {
+        r_RegisterTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -44,5 +45,4 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
-
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context="com.maraligat.fastscoutingapp.LoginActivity">
+    tools:context="com.maraligat.fastscoutingapp.RegisterActivity">
 
     <ImageView
         android:id="@+id/r_ImageView"
@@ -74,12 +74,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/Submit_tv"
+                android:id="@+id/r_SubmitTv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:gravity="center"
-                android:text="Login"
+                android:text="Register"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="18sp" />
@@ -87,12 +87,12 @@
     </android.support.v7.widget.CardView>
 
     <TextView
-        android:id="@+id/Register_tv"
+        android:id="@+id/r_RegisterTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cardView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Don't Have an Account? Sign Up"
+        android:text="Already Have an Account? Sign In"
         android:textSize="18sp" />
 </RelativeLayout>
