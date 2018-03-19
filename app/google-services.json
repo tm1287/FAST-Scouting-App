@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211807509936",
+    "firebase_url": "https://fastscoutingapp.firebaseio.com",
+    "project_id": "fastscoutingapp",
+    "storage_bucket": "fastscoutingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211807509936:android:b17b7443db1dc637",
+        "android_client_info": {
+          "package_name": "com.maraligat.fastscoutingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211807509936-51gsoqhm4afucqprskrpd52chnsai5mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maraligat.fastscoutingapp",
+            "certificate_hash": "6a86644aa0d260f4d3b8b0dd18b06ea7395e30d0"
+          }
+        },
+        {
+          "client_id": "211807509936-p85embd79tltcc2dbakumh1tp762o0m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr8Q5ragzliZNToTPOMXh7diciWWwrgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211807509936-p85embd79tltcc2dbakumh1tp762o0m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
