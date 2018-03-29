@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "211807509936-er2rmj8e971tsasc3dagpiug71e41op6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maraligat.fastscoutingapp",
+            "certificate_hash": "39712cf8711d42d75046f645f7559ba808855cf2"
+          }
+        },
+        {
           "client_id": "211807509936-51gsoqhm4afucqprskrpd52chnsai5mp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
